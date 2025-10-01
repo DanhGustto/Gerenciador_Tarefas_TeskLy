@@ -203,7 +203,7 @@ function salvarTarefaHoje(tarefa) {
 const boxElement = document.querySelector('.box'); // SELEÇÃO DO CARD - Localiza elemento da seção de tarefas gerais
 if (boxElement) { // VERIFICAÇÃO DE EXISTÊNCIA - Confirma que elemento está presente no DOM
     boxElement.addEventListener('click', function() { // LISTENER DE CLIQUE - Detecta interação do usuário
-        window.location.href = 'tarefas.html'; // REDIRECIONAMENTO - Navega para página de tarefas gerais
+        window.location.href = 'html/tarefas.html'; // REDIRECIONAMENTO - Navega para página de tarefas gerais
     });
 }
 
@@ -211,7 +211,7 @@ if (boxElement) { // VERIFICAÇÃO DE EXISTÊNCIA - Confirma que elemento está 
 const hojeElement = document.querySelector('.Hoje'); // SELEÇÃO DO CARD - Localiza elemento da seção hoje
 if (hojeElement) { // VERIFICAÇÃO DE EXISTÊNCIA - Confirma que elemento está presente no DOM
     hojeElement.addEventListener('click', function() { // LISTENER DE CLIQUE - Detecta interação do usuário
-        window.location.href = 'hoje.html'; // REDIRECIONAMENTO - Navega para página de tarefas de hoje
+        window.location.href = 'html/hoje.html'; // REDIRECIONAMENTO - Navega para página de tarefas de hoje
     });
 }
 
@@ -219,7 +219,7 @@ if (hojeElement) { // VERIFICAÇÃO DE EXISTÊNCIA - Confirma que elemento está
 const proxElement = document.querySelector('.prox'); // SELEÇÃO DO CARD - Localiza elemento da seção próximas
 if (proxElement) { // VERIFICAÇÃO DE EXISTÊNCIA - Confirma que elemento está presente no DOM
     proxElement.addEventListener('click', function() { // LISTENER DE CLIQUE - Detecta interação do usuário
-        window.location.href = 'prox.html'; // REDIRECIONAMENTO - Navega para página de tarefas futuras
+        window.location.href = 'html/prox.html'; // REDIRECIONAMENTO - Navega para página de tarefas futuras
     });
 }
 
@@ -227,6 +227,7 @@ if (proxElement) { // VERIFICAÇÃO DE EXISTÊNCIA - Confirma que elemento está
 const projetosElement = document.querySelector('.projetos'); // SELEÇÃO DO CARD - Localiza elemento da seção projetos
 if (projetosElement) { // VERIFICAÇÃO DE EXISTÊNCIA - Confirma que elemento está presente no DOM
     projetosElement.addEventListener('click', function() { // LISTENER DE CLIQUE - Detecta interação do usuário
-        window.location.href = 'projetos.html'; // REDIRECIONAMENTO - Navega para página de projetos
+        window.location.href = 'html/projetos.html'; // REDIRECIONAMENTO - Navega para página de projetos
     });
 }
+
