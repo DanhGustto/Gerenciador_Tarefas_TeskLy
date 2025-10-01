@@ -102,7 +102,7 @@ class GerenciadorProjetoDetalhes {
         // VALIDAÇÃO DE EXISTÊNCIA - Verifica se projeto foi encontrado e trata erro
         if (!this.projeto) { // TRATAMENTO DE ERRO - Projeto não existe ou foi removido
             alert('Projeto não encontrado!'); // NOTIFICAÇÃO DE ERRO - Informa usuário sobre problema
-            window.location.href = 'projetos.html'; // REDIRECIONAMENTO - Volta para lista de projetos
+            window.location.href = 'html/projetos.html'; // REDIRECIONAMENTO - Volta para lista de projetos
             return; // INTERRUPÇÃO - Para execução do construtor
         }
         
